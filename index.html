@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Information Portal</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+        <h2>Hengheng Service</h2>
+
+        <ul>
+            <li onclick="showPage('dashboard')">🏠 CS-SC</li>
+            <li onclick="showPage('logservice')">📚 Log Service</li>
+            <li onclick="showPage('technician')">🔧 Technician Code</li>
+        </ul>
+    </aside>
+
+    <!-- CONTENT -->
+    <main class="content">
+
+        <!-- DASHBOARD -->
+        <section id="dashboard" class="page active">
+
+            <div class="cards">
+
+                <div class="card">
+                    <h3>Satu Tim, Satu Tujuan, Satu Komitmen untuk Pelayanan Terbaik.</h3>
+                    <p>[[Learn Together, Solve Faster]]</p>
+                </div>  
+
+            </div>
+        </section>
+
+        <!-- LOG SERVICE -->
+        <section id="logservice" class="page">
+
+            <h1>Log Service Category by CS</h1>
+
+            <div class="article">
+
+                <img src="logservice.png"
+                     alt="gambar">
+            </div>
+
+        </section>
+
+        <!-- TECHNICIAN -->
+        <section id="technician" class="page">
+
+            <h1>Technician Code & Exploded View</h1>
+
+            <div class="article">   
+
+                <table>
+
+                    <tr>
+                        <th>Code</th>
+                        <th>Description</th>
+                    </tr>
+
+                    <tr>
+                        <td>MPCB</td>
+                        <td>Main PCB / Motor PCB</td>
+                    </tr>
+
+                    <tr>
+                        <td>LPCB</td>
+                        <td>Laser PCB</td>
+                    </tr>
+
+                    <tr>
+                        <td>CPCB</td>
+                        <td>Control PCB</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>SI</td>
+                        <td>Socket Intranasal</td>
+                    </tr>
+
+                    <tr>
+                        <td>SC</td>
+                        <td>Socket Charging</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>NC</td>
+                        <td>Nasal Cable</td>
+                    </tr>
+
+                    <tr>
+                        <td>LC</td>
+                        <td>Laser Cover</td>
+                    </tr>
+
+                    <tr>
+                        <td>LM</td>
+                        <td>Laser Mosfet</td>
+                    </tr>
+
+                    <tr>
+                        <td>SMDB</td>
+                        <td>SMD Button</td>
+                    </tr>
+
+                    <tr>
+                        <td>EMSS</td>
+                        <td>EMS Socket</td>
+                    </tr>
+
+                    <tr>
+                        <td>LC</td>
+                        <td>Laser Cover</td>
+                    </tr>
+
+                    <tr>
+                        <td>PI</td>
+                        <td>Power Inductor</td>
+                    </tr>
+
+                    <tr>
+                        <td>WB</td>
+                        <td>Watch Band</td>
+                    </tr>
+
+                </table>
+
+                <h3>Exploded View</h3>
+
+                <img src="aculpico.png"
+                     alt="exploded">
+
+            </div>
+
+        </section>
+
+    </main>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
