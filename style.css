@@ -67,6 +67,14 @@ body{
     box-shadow:0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
+.card img{
+    width:100%;
+    max-width:100%;
+    height:auto;
+    display:block;
+    object-fit:contain;
+}
+
 .card p{
     font-size:32px;
     margin-top:10px;
